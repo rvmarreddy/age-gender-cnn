@@ -1,0 +1,14 @@
+name: udl-coursework
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - numpy>=1.23.0
+  - matplotlib>=3.7.0
+  - jupyter
+  - ipykernel
+  - pip
+  - pip:
+    - tensorflow>=2.12.0
+    - opencv-python>=4.7.0
